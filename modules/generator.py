@@ -6,7 +6,7 @@ from database_manager import DatabaseManager
 # generator = Generator("gpt-3.5-turbo", "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")
 
 class Generator:
-    def __init__(self, engine="gpt-3.5-turbo", api_key="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"):
+    def __init__(self, engine="gpt-3.5-turbo", api_key="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"):
         self.engine = engine
         self.api_key = api_key
         openai.api_key = api_key
