@@ -6,6 +6,11 @@ The purpose of the project is the allow anyone with little to no experience in c
 
 -----------------------------------------------------------------------------------
 
+SETUP:
+    -
+
+-----------------------------------------------------------------------------------
+
 DATABASE MANAGER CLASS:
     - `__init__(self)`: The constructor for the `DatabaseManager` class. This initializes the instance with a mapping of paths to different directories in your project.
 
