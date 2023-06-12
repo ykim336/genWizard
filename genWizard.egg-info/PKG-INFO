@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
-Name: genMake
+Name: genWizard
 Version: 0.0.1
-Summary: genMake allows for versatile usage of openAI generation and prompting management.
-Home-page: https://github.com/ykim336/genMake
+Summary: genWizard allows for versatile usage of openAI generation and prompting management.
+Home-page: https://github.com/ykim336/genWizard
 Author: Isaac Moon
 Author-email: ykim336@ucr.com
 License: MIT
@@ -11,7 +11,7 @@ Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
-License-File: LICENSE.md
+License-File: LICENSE.txt
 
 # genMake
  a powerful openAI template that enables anyone to manage this amazing tool
