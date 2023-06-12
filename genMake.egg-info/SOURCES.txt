@@ -1,0 +1,16 @@
+.gitattributes
+CHANGELOG.md
+LICENSE.md
+MANIFEST.in
+README.md
+__init__.py
+setup.py
+genMake.egg-info/PKG-INFO
+genMake.egg-info/SOURCES.txt
+genMake.egg-info/dependency_links.txt
+genMake.egg-info/requires.txt
+genMake.egg-info/top_level.txt
+modules/__init__.py
+modules/database_manager.py
+modules/expander.py
+modules/generator.py

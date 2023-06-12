@@ -20,6 +20,6 @@ setup(
     author='Isaac Moon',
     author_email='ykim336@ucr.com',
     packages=find_packages(),
-    install_requires=['List your dependencies here']
+    install_requires=['openai']
 )
 
