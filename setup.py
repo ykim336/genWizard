@@ -9,11 +9,11 @@ classifiers = [
 ]
 
 setup(
-    name='genMake',
+    name='genWizard',
     version='0.0.1',
     description='genMake allows for versatile usage of openAI generation and prompting management.',
     long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(),
-    url='https://github.com/ykim336/genMake',
+    url='https://github.com/ykim336/genWizard',
     license='MIT',
     classifiers=classifiers,
     keywords='machine learning',
