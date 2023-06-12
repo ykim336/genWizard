@@ -45,23 +45,6 @@ class TestDatabaseManager(unittest.TestCase):
         edited_content = self.db_manager.read(1, filename)
         self.assertEqual(new_content, edited_content)
 
-    def test_move(self):
-        test_content = "This is a test for move"
-        self.db_manager.write(1, test_content)
-        latest_file_path = self.db_manager.get_latest_file(self.db_manager.path_mapping[1])
-        filename = os.path.basename(latest_file_path)
-        self.db_manager.move(1, 2, filename)
-        self.assertIn(filename, os.listdir(self.db_manager.path_mapping[2]))
-        self.assertNotIn(filename, os.listdir(self.db_manager.path_mapping[1]))
-
-    def test_copy(self):
-        test_content = "This is a test for copy"
-        self.db_manager.write(1, test_content)
-        latest_file_path = self.db_manager.get_latest_file(self.db_manager.path_mapping[1])
-        filename = os.path.basename(latest_file_path)
-        self.db_manager.copy(1, 2, filename)
-        self.assertIn(filename, os.listdir(self.db_manager.path_mapping[2]))
-
     def test_get_latest_file(self):
         test_content = "This is a test for get_latest_file"
         self.db_manager.write(1, test_content)

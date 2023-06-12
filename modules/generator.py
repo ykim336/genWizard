@@ -12,6 +12,10 @@ class Generator:
         openai.api_key = api_key
         self.conversation_log = []
         self.db_manager = DatabaseManager()
+        
+    def display_info(self):
+        print("Engine: " + self.engine + '\n' +
+              "API Key: " + self.api_key)
     
     def base_generation(self, prompt, memory=False, token=300, temperature=0.5):
         self.conversation_log.append({"role": "user", "content": prompt})

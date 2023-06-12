@@ -52,23 +52,3 @@ class DatabaseManager:
             content = input("Please provide new content: ")
         with open(os.path.join(path, filename), 'w') as f:
             f.write(content)
-
-    def move(self, source_id, target_id, filename=None):
-        import shutil
-        source_path = self.path_mapping[source_id]
-        target_path = self.path_mapping[target_id]
-        if filename is None:
-            filename = self.get_latest_file(source_path)
-        if filename is None:
-            return
-        shutil.move(os.path.join(source_path, filename), os.path.join(target_path, filename))
-
-    def copy(self, source_id, target_id, filename=None):
-        import shutil
-        source_path = self.path_mapping[source_id]
-        target_path = self.path_mapping[target_id]
-        if filename is None:
-            filename = self.get_latest_file(source_path)
-        if filename is None:
-            return
-        shutil.copy2(os.path.join(source_path, filename), os.path.join(target_path, filename))

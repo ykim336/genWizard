@@ -1,0 +1,7 @@
+            
+            genMake
+            ------------------------
+            1. run chatbot
+            2. run prompt
+            2. quit
+            
