@@ -10,7 +10,7 @@ classifiers = [
 
 setup(
     name='genWizard',
-    version='0.0.2',
+    version='0.0.3',
     description='genWizard allows for versatile usage of openAI generation and prompting management.',
     long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
     url='https://github.com/ykim336/genWizard',

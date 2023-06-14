@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: genWizard
-Version: 0.0.2
+Version: 0.0.3
 Summary: genWizard allows for versatile usage of openAI generation and prompting management.
 Home-page: https://github.com/ykim336/genWizard
 Author: Isaac Moon
@@ -18,6 +18,11 @@ GENWIZARD LIBRARY:
 'genWizard' is a complex project aimed at utilizing AI for text generation, particularly using OpenAI's language models. it is designed around the concept of generating content based on provided prompts, and involves a multi-stage process of expanding prompts, evaluating the reliability and validity of generated outputs, and comparing these outputs.
 
 The purpose of the project is the allow anyone with little to no experience in coding AI to utilize the features of OpenAI's LLMs. 
+
+-----------------------------------------------------------------------------------
+
+SETUP:
+    -
 
 -----------------------------------------------------------------------------------
 
@@ -60,11 +65,13 @@ EXPANDER CLASS:
 
 In essence, the `Expander` class is used to expand a given prompt by adding additional content from a file and then generate text based on the expanded prompt.
 
+===================================================================================
 
-GENMAKE CHANGELOG
-===================
+GENWIZARD CHANGELOGS
 
-0.0.1
--------------------
+===================================================================================
+
+0.0.3
+-----------------------------------------------------------------------------------
 First Release
 - Includes the basic functions: Database Manager, Expander, and Generator. 
